@@ -1,0 +1,53 @@
+.education .box-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    row-gap:0;
+    flex-wrap: wrap;
+    padding: 1rem 6rem;
+    
+}
+
+.education .box-container .box{
+    width: 27rem;
+    margin: 1rem 1rem;
+    margin-bottom: 3rem;
+    padding-left: 4rem;
+    border-left: 5px solid #dbe916;
+    position: relative;
+}
+
+.education .box-container .box span{
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 1rem;
+    border: solid;
+    padding: 5px 10px;
+    background: #302d2d;
+}
+
+.education .box-container .box h3{
+    font-size: 1.7rem;
+    color: #fff;
+    padding-top: 1.5rem;
+}
+
+.education .box-container .box p{
+    font-size: 1.2rem;
+    color: #eee;
+    padding: 1rem 0;
+}
+
+.education .box-container .box .nani{
+    position: absolute;
+    top: -1.5rem;
+    left: -2.5rem;
+    height: 2rem;
+    width: 4.75rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background: var(--yellow);
+}
